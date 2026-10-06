@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.search-box {
+  box-sizing: border-box;
+  width: min(100%, 24rem);
+  margin-bottom: 2rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #9ca3af;
+  border-radius: 0.5rem;
+  font: inherit;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-width: 18rem;
+}
+
+.product-card__title {
+  margin: 0 0 1rem;
+}
+
+.product-card__description {
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+
+.product-card__category {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.875rem;
+}
